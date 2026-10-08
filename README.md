@@ -29,13 +29,13 @@ Not learning instead of doing, but learning through thinking, making, and doing.
 
 ## Get involved
 
-Parents, educators, researchers, and builders are all welcome. Join the conversation at [frontier-edtech.vercel.app](https://frontier-edtech.vercel.app).
+Parents, educators, researchers, and builders are all welcome. Join the conversation at [Frontier Edtech](https://www.frontieredtech.com/).
 
 ---
 
 ## About this site
 
-Built with Next.js, TypeScript, Tailwind CSS, Motion, and Geist. The contact form posts to Formspree (override with `FORM_ENDPOINT`; see `.env.example`). Pushes to `main` deploy automatically on Vercel.
+Built with Next.js, TypeScript, Tailwind CSS, Motion, and Geist.
 
 ```bash
 npm install
