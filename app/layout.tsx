@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { GeistSans } from "geist/font/sans";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const site = process.env.NEXT_PUBLIC_SITE_URL ?? "https://frontieredtech.org";
@@ -20,7 +21,10 @@ export const viewport: Viewport = { themeColor: "#F5F4EF" };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={GeistSans.variable}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
