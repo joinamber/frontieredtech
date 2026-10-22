@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "geist": "^1.7.2",
     "lucide-react": "^1.53.0",
     "motion": "^14.0.0",
